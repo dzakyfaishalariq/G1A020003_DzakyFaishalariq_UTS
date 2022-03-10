@@ -47,15 +47,34 @@ body{
 }
 .areagambarsains{
     width: 100%;
-    height: 400px;
+    height: 500px;
     background-color: #85e1f1;
     margin-top: 10px;
 }
-.areagambarprofil{
-    width: 200px;
-    height: 200px;
-    background-color: #85e1f1;
-    margin-top: 50px;
-    margin-left: 270PX;
-    border-radius: 50%;
+.gambarprofil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;   
+}
+#jam,#ucapan{
+    font-size: 50px;
+    background: -webkit-linear-gradient(#1bddd3, #1163c2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+.judul{
+    text-align: center;
+    background-color: #2acae6;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: #11c29c;
+}
+.gbr{
+    width: 600px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
