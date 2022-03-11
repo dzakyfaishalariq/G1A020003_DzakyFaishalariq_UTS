@@ -70,6 +70,17 @@ body{
     font-size: 40px;
     font-weight: bold;
     text-shadow: #11c29c;
+    border-radius: 20px;
+    border-color: #2ae653;
+    box-shadow: inset 0 0 10px #2ab1e6;
+}
+.judul:hover{
+    background-color: #1163c2;
+    color: rgb(255, 255, 255);
+}
+.judul:active{
+    background-color: #3ac211;
+    color: rgb(255, 255, 255);
 }
 .gbr{
     width: 600px;
@@ -77,4 +88,12 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 10px solid #2ae62a;
+}
+.area_perkenalan{
+    width: 510px;
+    height: 400px;
+    background-color: #85e1f1;
+    margin-top: 10px;
 }
